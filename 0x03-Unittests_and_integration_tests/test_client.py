@@ -162,5 +162,6 @@ class TestIntegrationGithubOrgClient(unittest.TestCase):
         """Removes the class fixtures after running all tests."""
         cls.get_patcher.stop()
 
+
 if __name__ == "__main__":
     unittest.main()
